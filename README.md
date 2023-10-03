@@ -1,0 +1,17 @@
+# Generatore di password
+- creare le variabili che dopo chideremo all'utente
+    - variabile nome
+    - variabile cognome
+    - variabile colore preferito
+- chiedere all'utente delle informazioni e immagazzinare le informazioni nelle variabili
+    - chiedere all'utente il suo nome
+        - creare il prompt
+        - assegnare il valore restituito dal prompt alla variabile 
+    - chiedere all'utente il suo congnome
+        - creare il prompt
+        - assegnare il valore restituito dal prompt alla variabile
+    - chiedere all'utente il suo colore preferito
+        - creare il prompt
+        - assegnare il valore restituito dal prompt alla variabile
+- concatenare le 3 variabili ottenute dai prompt + una variabile numerica        
+- stampare sulla pagina le informazioni concatenate in modo da generare una password
