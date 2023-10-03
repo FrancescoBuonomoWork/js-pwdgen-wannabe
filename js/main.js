@@ -28,7 +28,10 @@ console.log(userFavoriteColor);
 // - concatenare le 3 variabili ottenute dai prompt + una variabile numerica
 let randomNumber;
 randomNumber = Math.floor((Math.random() * 30) + 1) ;
-let newPassoword;
-console.log('la tua nuova password è'+ ' ' + userName + userSurname +userFavoriteColor + randomNumber )
+let newPassoword = userName + userSurname +userFavoriteColor + randomNumber;
+// console.log('la tua nuova password è'+ ' ' + userName + userSurname +userFavoriteColor + randomNumber )
+console.log(newPassoword);
         
 // - stampare sulla pagina le informazioni concatenate in modo da generare una password
+const messageDomElement = document.getElementById('new-password');
+messageDomElement.innerHTML ="la tua password è : " + newPassoword;
