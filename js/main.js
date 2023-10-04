@@ -33,5 +33,5 @@ let newPassoword = userName + userSurname +userFavoriteColor + randomNumber;
 console.log(newPassoword);
         
 // - stampare sulla pagina le informazioni concatenate in modo da generare una password
-const messageDomElement = document.getElementById('new-password');
-messageDomElement.innerHTML ="la tua password è : " + newPassoword;
+const passwordDomElement = document.getElementById('new-password');
+passwordDomElement.innerHTML ="la tua password è : " + newPassoword;
